@@ -1,0 +1,70 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #333; /* Cambia este color según tus preferencias */
+    overflow: hidden;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.nav-links a {
+    color: #fff; /* Cambia este color según tus preferencias */
+    text-decoration: none;
+    font-size: 18px; /* Cambia este tamaño según tus preferencias */
+}
+
+
+.nav-links a:hover {
+    color: #ddd; /* Cambia este color según tus preferencias */
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+
+.categoria-item {
+    flex: 1 0 45%; 
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.categoria-item h2 {
+    font-size: 20px;
+}
+
+
+#zapatos {
+    background-color: #f0f0f0;
+}
+
+#ropa {
+    background-color: #e0e0f0;
+}
+
+
+
+
